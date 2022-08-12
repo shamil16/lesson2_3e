@@ -17,7 +17,7 @@ public class BankAccount {
             throw new LimitException("на вашем  счету недостаточно средств", amount);
         } else {
             amount -= sum;
-            System.out.println("Вы сняkи со счета " + sum);
+            System.out.println("Вы сняли со счета " + sum);
         }
     }
 }
